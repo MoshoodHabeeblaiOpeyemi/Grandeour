@@ -1,0 +1,521 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+}
+
+header{
+    padding: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    height: 50px;
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+    left: 0;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.menubar{
+    padding-right: 20px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+#grandeur-logo{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.tailor-main img{
+    width: 100%;
+}
+
+.btn{background: none; color: black; border: none;font-size: 25px;}
+.close-btn{position: absolute; top: 20px;right: 45px;}
+.wishlist:hover .message{
+    display: block;
+}
+
+.overlay{
+    background-color: burlywood;
+    color: black;
+    top: 0%;
+    left: 0%;
+    position: fixed;
+    height: 0%;
+    width: 100%;
+    z-index: 1;
+    overflow-y: hidden;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.overlay a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    padding: 7px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.nav-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#eminent-legacy{
+    background-color: rgba(186, 192, 190, 0.319);
+    color: white;
+    bottom: 10px;
+    right: 15px;
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    width: 70px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.eminent{
+    position: relative;
+}
+#tailor{
+    text-decoration: none;
+    color: white;
+}
+#arrow:hover{
+    color: red;
+}
+
+.image-container p{
+    margin-top: 0%;
+}
+.image-container a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    padding: 8px;
+    background-color: burlywood;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.image-card a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    padding: 8px;
+    background-color: burlywood;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.image-container a:hover{
+    background-color: rgba(222, 184, 135, 0.449);
+}
+
+
+.image-card img{
+    width: 95%;
+    height: auto;
+}
+.image-container{
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.image-card{
+    display: inline-block;
+    margin: 5px;
+    width: 300px;
+}
+.image-card img{
+    width: 100%;
+    height: auto;
+}
+
+.collection-button{
+    background-color: burlywood;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 10px;
+    border: 0;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.fashion-display img{
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+
+footer{
+
+    width: 100%;
+}
+
+.image-slider{
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+}
+
+.slider-container{
+    display: flex;
+    flex-wrap: nowrap;
+    width: calc(80% * 6);
+    transition: transform 6s linear;
+    -webkit-transition: transform 6s linear;
+    -moz-transition: transform 6s linear;
+    -ms-transition: transform 6s linear;
+    -o-transition: transform 6s linear;
+}
+
+.slider-container img{
+    width: calc(80% * 6);
+    height: 300px;
+    margin: 5px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.text p:last-child{
+    font-size: small;
+   
+}
+
+footer{
+    background-color: rgba(193, 185, 185, 0.395);
+    padding-bottom: 40px;
+}
+
+#foota{
+    width: 90%;
+    margin:auto;
+}
+
+#fblogo{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.footer-contact h3, .products h3, .sitemap h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products a, .sitemap a{
+    text-decoration: none;
+    width: 80px;
+    color: black;
+    display: block;
+}
+.products a:hover,.sitemap a:hover{
+    animation: yes 4s linear  infinite;
+    -webkit-animation: yes 4s linear  infinite;
+}
+@keyframes yes {
+    from{
+        color: black;
+    }
+
+    to{
+    color: red;
+    font-size: x-large;
+    transition: 4s linear;
+    -moz-transition: 4s linear;
+    -ms-transition: 4s linear;
+    -o-transition: 4s linear;
+    -webkit-animation: yes 1s linear  1;
+    -webkit-transition: 4s linear;
+}
+}
+hr{
+    border: 1px solid black;
+}
+
+#card{
+    
+    margin:auto;
+    width:90%;
+    background-color: rgba(193, 185, 185, 0.395);
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#general-desktop{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    background-color:  rgba(193, 185, 185, 0.395);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.image-desktop img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#card-text-desktop{
+    padding: 20px;
+}
+
+#card-text{
+    text-align: left;
+}
+
+.collapsible {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .active, .collapsible:hover {
+    background-color: rgba(255, 255, 255, 0.366);
+  }
+  
+  .collapsible:after {
+    content:  ' \002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .content {
+    padding: 0 18px;
+
+    font-size: smaller;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    -webkit-transition: max-height 0.2s ease-out;
+    -moz-transition: max-height 0.2s ease-out;
+    -ms-transition: max-height 0.2s ease-out;
+    -o-transition: max-height 0.2s ease-out;
+}
+
+li{
+    display: inline;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.message{
+    position: absolute;
+    width: 70%;
+    height: 200px;
+    background-color: antiquewhite;
+    padding: 10px;
+    display: none;
+    margin: auto;
+    left: 9%;
+    top: 60px;
+}
+.message img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.message div{
+    text-align: center; 
+    font-size:small;
+}
+
+.navigation{
+    display: none;
+}
+#general-desktop{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 416px){
+    .openNav{display: none;}
+    .navigation{
+        display: block;
+    }
+
+    #eminent-legacy{
+        background-color: rgba(186, 192, 190, 0.319);
+        color: white;
+        bottom: 100px;
+        right: 80px;
+        position: absolute;
+        text-align: center;
+        padding: 100px;
+        font-size: larger;
+    }
+    #eminent-legacy:hover{
+        background-color: rgba(186, 192, 190, 0.423);
+        cursor: pointer;
+    }
+    .fashion-display{
+        display: flex;
+        
+    }
+    .fashion-display img{
+        width: 50%;
+    }
+    .text p:first-child{
+        font-size: 40px;
+        width: 40%;
+        margin: auto;
+    }
+    .text p:last-child{
+        font-size: 20px;
+    }
+    .slider-container img{
+        width: calc(20% * 6);
+        height: 300px;
+        margin: 5px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        -o-border-radius: 30px;
+    }
+    .slider-container{
+        display: flex;
+        flex-wrap: nowrap;
+        width: calc(20% * 6);
+        transition: transform 6s linear;
+        -webkit-transition: transform 6s linear;
+        -moz-transition: transform 6s linear;
+        -ms-transition: transform 6s linear;
+        -o-transition: transform 6s linear;
+    }
+    #foota{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10px;
+        padding-top: 20px;
+    }
+
+    .mainclothes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .image-card{
+        margin: 25px;
+    }
+    #card{
+        display: none;
+    }
+    #general-desktop{
+        display: flex;
+    }
+    .tailor-main{
+        display: flex;
+        justify-content: center;
+        width: 60%;
+        height: 400px;
+    }
+    .tailor-image{
+        width: 100%;
+        
+    }
+    .tailor-main div:last-child{
+        padding: 20px;
+    }
+   
+    .message{
+        width: 60%;
+        left: 19%;
+        height: 300px;
+    }
+    .message div{
+        text-align: center; 
+        font-size:large;
+    }
+    
+}
+  
